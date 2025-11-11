@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Overview Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-light"></div>
+    <div class="background-light-secondary"></div>
+    <div class="card-container">
+        <div class="wrap">
+            <!-- Business Overview Section -->
+            <div class="card-section">
+                <div class="header-group">
+                    <h2 class="section-title">Business Overview</h2>
+                    <p class="section-description">This section provides an overview of your business.</p>
+                </div>
+                <div class="text-card">
+                    <div class="card-outline"></div>
+                    <textarea class="card-text" id="business-overview" maxlength="500" placeholder="Enter your business overview...">Greenlight Coverage is a user-friendly software solution designed for writers and producers, offering premium screenplay analysis and instant feedback. It provides secure, industry-vetted script coverage with fast turnaround times, delivering detailed reports in minutes. Users can ask follow-up questions and receive immediate responses to aid their screenplay development.</textarea>
+                    <p class="character-count" id="count-business">500/500</p>
+                </div>
+            </div>
+
+            <!-- Target Audience Section -->
+            <div class="card-section">
+                <div class="header-group">
+                    <h2 class="section-title">Target Audience</h2>
+                    <p class="section-description">Define your ideal customers and who this content is for.</p>
+                </div>
+                <div class="text-card">
+                    <div class="card-outline card-outline-gray"></div>
+                    <textarea class="card-text" id="target-audience" maxlength="500" placeholder="Enter your target audience...">Keep in mind our target audience is writers and producers seeking swift and high-quality screenplay feedback to enhance their projects efficiently and collaboratively, and not casual movie enthusiasts or general consumers without a professional stake in screenwriting or film production.</textarea>
+                    <p class="character-count" id="count-audience">500/500</p>
+                </div>
+            </div>
+
+            <!-- Continue Button -->
+            <div class="button-container">
+                <button class="continue-button">Continue</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
